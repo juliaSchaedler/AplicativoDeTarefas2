@@ -3,6 +3,9 @@ import { View, Text, StyleSheet, StatusBar, Platform, TextInput, TouchableOpacit
 import Card  from "../components"
 import { COLORS, SIZES, FONTS, SHADOW } from "../constants"
 
+
+
+
 const styles = StyleSheet.create({
     container: {
         paddingTop: Platform.OS === "ios" ? 40 : StatusBar.currentHeight + 10,

@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import * as Font from 'expo-font';
 import { Homepage } from "./src/screens"
+import Login from './src/screens/login';
 
 export default function App() {
 
@@ -25,7 +26,7 @@ export default function App() {
   } else {
 
     return (
-      <Homepage />
+      <Login />
     );
   }
 }
